@@ -11,6 +11,7 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import HomePage from './components/HomePage';
 import About from './components/AboutPage';
+import CadreEntry from './components/CadreEntry';
 
 
 export default function App() {
@@ -49,25 +50,11 @@ export default function App() {
                 <Route path="/about">
                   <About />
                 </Route>
-                <Route path="/dwyerfamily">
-                  <Dashboard />
-                </Route>
+                <Route path="/cadres/:cadreId" component={CadreEntry}/>
               </Switch>
             </div>
           </Router>
       </div>
     </div>
   );
-}
-
-// You can think of these components as "pages"
-// in your app.
-
-
-function Dashboard() {
-return (
-<div>
-<h2>Dashboard</h2>
-</div>
-);
 }
