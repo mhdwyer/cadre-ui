@@ -7,37 +7,37 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   sodipodi:docname="logo1.svg"
-   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
-   id="svg8"
-   version="1.1"
-   viewBox="0 0 156.54381 63.966679"
+   width="156.54381mm"
    height="63.966679mm"
-   width="156.54381mm">
+   viewBox="0 0 156.54381 63.966679"
+   version="1.1"
+   id="svg8"
+   inkscape:version="1.0 (4035a4fb49, 2020-05-01)"
+   sodipodi:docname="logo1.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
-     inkscape:window-maximized="0"
-     inkscape:window-y="0"
-     inkscape:window-x="26"
-     inkscape:window-height="1040"
-     inkscape:window-width="1685"
-     inkscape:snap-text-baseline="true"
-     inkscape:guide-bbox="true"
-     showguides="true"
-     showgrid="false"
-     inkscape:document-rotation="0"
-     inkscape:current-layer="layer1"
-     inkscape:document-units="mm"
-     inkscape:cy="249.26211"
-     inkscape:cx="415.52047"
-     inkscape:zoom="1"
-     inkscape:pageshadow="2"
-     inkscape:pageopacity="0.0"
-     borderopacity="1.0"
-     bordercolor="#666666"
+     id="base"
      pagecolor="#ffffff"
-     id="base" />
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1"
+     inkscape:cx="415.52047"
+     inkscape:cy="249.26211"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer2"
+     inkscape:document-rotation="0"
+     showgrid="false"
+     showguides="true"
+     inkscape:guide-bbox="true"
+     inkscape:snap-text-baseline="true"
+     inkscape:window-width="1685"
+     inkscape:window-height="1040"
+     inkscape:window-x="26"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -51,55 +51,50 @@
     </rdf:RDF>
   </metadata>
   <g
-     transform="translate(-7.9334266,-14.269639)"
-     inkscape:label="avatar"
+     inkscape:groupmode="layer"
      id="layer2"
-     inkscape:groupmode="layer">
-    <path
-       style="fill:none;stroke:#ff6600;stroke-width:3.93959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 25.146686,19.187584 c 0,0 -7.044612,6.686554 -7.044612,18.626829 0,10.268639 7.044612,16.955195 7.044612,16.955195"
-       id="path12"
-       sodipodi:nodetypes="csc" />
+     inkscape:label="avatar"
+     transform="translate(-7.9334266,-14.269639)">
     <path
        sodipodi:nodetypes="csc"
-       id="path12-4"
-       d="m 44.580098,54.769601 c 0,0 7.044612,-6.686549 7.044612,-18.626827 0,-10.268636 -7.044612,-16.95519 -7.044612,-16.95519"
+       id="path12"
+       d="m 25.146686,31.093834 c 0,0 -7.044612,6.686554 -7.044612,18.626829 0,10.268639 7.044612,16.955195 7.044612,16.955195"
        style="fill:none;stroke:#ff6600;stroke-width:3.93959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
-       style="fill:none;stroke:#ff6600;stroke-width:2.49427;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 28.000483,58.709894 8.7959263,77.097916 c 0,0 12.2770757,-5.492522 19.3520037,-5.492522 7.074924,0 28.299706,1.910444 28.299706,1.910444 L 42.891203,61.575557"
-       id="path856"
-       sodipodi:nodetypes="ccscc" />
+       style="fill:none;stroke:#ff6600;stroke-width:3.93959;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="m 44.580098,66.675851 c 0,0 7.044612,-6.686549 7.044612,-18.626827 0,-10.268636 -7.044612,-16.95519 -7.044612,-16.95519"
+       id="path12-4"
+       sodipodi:nodetypes="csc" />
   </g>
   <g
-     transform="translate(-7.9334266,-14.269639)"
-     style="display:inline"
-     id="layer1"
+     inkscape:label="Layer 1"
      inkscape:groupmode="layer"
-     inkscape:label="Layer 1">
+     id="layer1"
+     style="display:inline"
+     transform="translate(-7.9334266,-14.269639)">
     <text
-       transform="scale(0.90473553,1.1052954)"
-       id="text911"
-       y="-83.077736"
-       x="-75.184425"
+       xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:85.8285px;line-height:1.25;font-family:sans-serif;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2.14572"
-       xml:space="preserve"><tspan
-         style="stroke-width:2.14572"
-         y="-83.077736"
-         x="-75.184425"
+       x="-75.184425"
+       y="-83.077736"
+       id="text911"
+       transform="scale(0.90473553,1.1052954)"><tspan
+         sodipodi:role="line"
          id="tspan909"
-         sodipodi:role="line" /></text>
+         x="-75.184425"
+         y="-83.077736"
+         style="stroke-width:2.14572" /></text>
     <text
-       transform="scale(0.9426173,1.0608759)"
-       id="text915"
-       y="61.518242"
-       x="63.028778"
+       xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:62.9023px;line-height:1.25;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;fill-opacity:1;stroke:none;stroke-width:6.12865"
-       xml:space="preserve"><tspan
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:62.9023px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke-width:6.12865"
-         y="61.518242"
-         x="63.028778"
+       x="63.028778"
+       y="61.518242"
+       id="text915"
+       transform="scale(0.9426173,1.0608759)"><tspan
+         sodipodi:role="line"
          id="tspan913"
-         sodipodi:role="line">cadre</tspan></text>
+         x="63.028778"
+         y="61.518242"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:condensed;font-size:62.9023px;font-family:'Agency FB';-inkscape-font-specification:'Agency FB, Condensed';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#ff6600;stroke-width:6.12865">cadre</tspan></text>
   </g>
 </svg>
