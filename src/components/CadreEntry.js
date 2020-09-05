@@ -1,14 +1,15 @@
 import React from 'react';
 import CadreAvatar from './CadreAvatar';
-import dwyer1 from '../assets/example1.PNG';
+import './CadreEntry.css'
+import floorPlan from '../assets/example1.PNG';
 
 export default function CadreEntry({match}) {
     return (
-      <div class="container">
-        <h1 class="display-4">Welcome to {match.params.cadreId}</h1>
-        <div style={{position:'absolute'}}>
-          <img src={dwyer1} style={{position:'absolute'}} />
-          <CadreAvatar />
+      <div className="container">  ..
+        <div className="floorArea">
+          <img src={floorPlan} /> x/.
+          <CadreAvatar positionTop={58} positionLeft={360} />
+          <CadreAvatar positionTop={250} positionLeft={380} />
         </div>
       </div>
     );
