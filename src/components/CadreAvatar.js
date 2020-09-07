@@ -1,13 +1,15 @@
 import React from 'react';
 import avatarCurves1 from '../assets/curve1.svg';
-import './CadreAvatar.css'
-import Gravatar from 'react-gravatar'
+import './CadreAvatar.css';
+import Gravatar from 'react-gravatar';
+import Icon from './Icon';
 
 export default function CadreAvatar(props) {
     return (
       <div className="avatar" style={{top:props.positionTop,left:props.positionLeft}} >
         {/* <img className="personImage" src={personImage} width="40" /> */}
-        <Gravatar className="personImage" email={props.email} size="40"/> 
+        <Icon className="moodOCon" name="EmojiSmile" />
+        <Gravatar className="personImage" email={props.email} size="35"/> 
         <img className="avatarCurves" src={avatarCurves1} width="45" /><br/>
         <div className="avatarNameLabel">{props.name}</div>
         <svg className="beacon" width="40" height="40">

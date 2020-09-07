@@ -13,7 +13,6 @@ import HomePage from './components/HomePage';
 import About from './components/AboutPage';
 import CadreEntry from './components/CadreEntry';
 
-
 export default function App() {
   return (
     <div className="App">
