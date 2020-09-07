@@ -3,19 +3,6 @@
   width:80px;
 }
 
-.moodOCon {
-  position:absolute;
-  top:35px;
-  left:32px;
-  z-index: 999;
-}
-
-.beacon {
-  position:absolute;
-  top:30px;
-  left:20px;
-}
-
 .personImage {
   position:absolute;
   top:7px;
@@ -40,31 +27,3 @@
   padding:0px;
   background:white;
 }
-
-circle {
-  stroke: orange; 
-  stroke-width: 2px;
-  stroke-opacity: 1;
-}
-
-.pulse {
-    fill: white;
-    fill-opacity: 0;
-    transform-origin: 50% 50%;
-    animation-duration: 2s;
-    animation-name: pulse;
-    animation-iteration-count: infinite;
-  }
-  
-  @keyframes pulse {
-    from {
-      stroke-width: 8px;
-      stroke-opacity: 1;
-      transform: scale(0.3);
-    }
-    to {
-      stroke-width: 0;
-      stroke-opacity: 0;
-      transform: scale(2);
-    }
-  }

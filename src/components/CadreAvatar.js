@@ -1,21 +1,22 @@
-import React from 'react';
+import React, { useState } from 'react';
 import avatarCurves1 from '../assets/curve1.svg';
 import './CadreAvatar.css';
 import Gravatar from 'react-gravatar';
-import Icon from './Icon';
+import MoodIcon from './MoodIcon';
 
 export default function CadreAvatar(props) {
+    const [isShown, setIsShown] = useState(false);
     return (
-      <div className="avatar" style={{top:props.positionTop,left:props.positionLeft}} >
+      <div className="avatar" style={{top:props.positionTop,left:props.positionLeft}}
+        onMouseEnter={() => setIsShown(true)}
+        onMouseLeave={() => setIsShown(false)}>
         {/* <img className="personImage" src={personImage} width="40" /> */}
-        <Icon className="moodOCon" name="EmojiSmile" />
         <Gravatar className="personImage" email={props.email} size="35"/> 
         <img className="avatarCurves" src={avatarCurves1} width="45" /><br/>
-        <div className="avatarNameLabel">{props.name}</div>
-        <svg className="beacon" width="40" height="40">
-          <circle cx="50%" cy="50%" r="7px" fill="orange"></circle>
-          <circle className="pulse" cx="50%" cy="50%" r="10px" fill="orange"></circle>
-        </svg>
+        { isShown && (
+          <div className="avatarNameLabel">{props.name}</div>
+        )}
+        <MoodIcon className="moodICon" name={props.mood} />
       </div>
     );
 }
