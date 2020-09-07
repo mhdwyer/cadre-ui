@@ -15,12 +15,32 @@ export default function MoodIcon(props) {
                         </svg>
                     </React.Fragment>
             break;
+        case "sad":
+        case "down":
+            result = <React.Fragment>
+                        <div className={props.className}><EmojiFrown /></div>
+                        <svg className="beacon" width="40" height="40">
+                            <circle cx="50%" cy="50%" r="7px" fill="powderblue"></circle>
+                            <circle className="pulse" cx="50%" cy="50%" r="10px" fill="powderblue"></circle>
+                        </svg>
+                    </React.Fragment>
+            break;
         case "confused":
             result = <React.Fragment>
                         <div className={props.className}><EmojiDizzy /></div>
                         <svg className="beacon" width="40" height="40">
                             <circle cx="50%" cy="50%" r="7px" fill="green"></circle>
                             <circle className="pulse" cx="50%" cy="50%" r="10px" fill="green"></circle>
+                        </svg>
+                    </React.Fragment>
+            break;
+        case "relaxed":
+        case "chill":
+            result = <React.Fragment>
+                        <div className={props.className}><EmojiSunglasses /></div>
+                        <svg className="beacon" width="40" height="40">
+                            <circle cx="50%" cy="50%" r="7px" fill="royalblue"></circle>
+                            <circle className="pulse" cx="50%" cy="50%" r="10px" fill="royalblue"></circle>
                         </svg>
                     </React.Fragment>
             break;
@@ -40,8 +60,8 @@ export default function MoodIcon(props) {
             result = <React.Fragment>
                         <div className={props.className}><EmojiNeutral /></div>
                         <svg className="beacon" width="40" height="40">
-                            <circle cx="50%" cy="50%" r="7px" fill="gray"></circle>
-                            <circle className="pulse" cx="50%" cy="50%" r="10px" fill="orange"></circle>
+                            <circle cx="50%" cy="50%" r="7px" fill="khaki"></circle>
+                            <circle className="pulse" cx="50%" cy="50%" r="10px" fill="khaki"></circle>
                         </svg>
                     </React.Fragment>
             break;
