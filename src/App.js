@@ -1,4 +1,6 @@
 import React from 'react';
+import '@microsoft/mgt';
+import { Login } from '@microsoft/mgt-react';
 import logo from './logo.svg';
 import './App.css';
 import {
@@ -13,10 +15,10 @@ import HomePage from './components/HomePage';
 import About from './components/AboutPage';
 import CadreEntry from './components/CadreEntry';
 
-
 export default function App() {
   return (
     <div className="App">
+      <mgt-msal-provider client-id="e7101a24-cacb-4dfb-86f4-0c5a749da124" redirect-ui="http://localhost:3000"></mgt-msal-provider>
       <div className="App-header">
           <Router>
             <Navbar bg="light" expand="lg">
@@ -34,6 +36,7 @@ export default function App() {
                   </Nav.Link>
                 </Nav>
               </Navbar.Collapse>
+              <Login loginCompleted={(e) => console.log('Logged in')}></Login>
             </Navbar>
             <div>
               {/*

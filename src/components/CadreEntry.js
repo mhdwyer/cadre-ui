@@ -4,6 +4,8 @@ import './CadreEntry.css'
 import floorPlan from '../assets/example1.PNG';
 
 export default function CadreEntry({match}) {
+    
+
     return (
       <div className="container">  ..
         <div className="floorArea">
